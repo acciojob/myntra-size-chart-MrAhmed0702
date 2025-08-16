@@ -1,11 +1,32 @@
-/* Your CSS Code here. */
 table {
-	border:1px solid black;
-	width: 50%;
-	border-collapse: separate;
+    border: 1px solid #7C0A02; 
+    width: 50%;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-td, th {
-	border:1px solid black
-	padding: 4px;
+th {
+    background: linear-gradient(to bottom, #A91E2C, #7C0A02);
+    color: white;
+    padding: 8px;
+    border: 1px solid #7C0A02;
+}
+
+td {
+    border: 1px solid #CCCCCC;
+    padding: 8px;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #F8F8F8;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #E8E8E8; 
+}
+
+td:first-child {
+    background-color: #E8C8C8;
+    font-weight: bold;
 }
